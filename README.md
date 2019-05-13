@@ -6,12 +6,12 @@ All tests passed. Both client and server working as expected.
 
 #### Try it out!
 
-If you want to try the converter, open [this link on Glitch](https://yagoestevez-metric-imperial-converter.glitch.me/).
+If you want to try the converter, open [this link on Glitch](https://afamo-metric-imperial-converter.glitch.me//).
 
 ##### User Stories
 1. I will help prevent the client from trying to guess(sniff) the MIME type.
 2. I will prevent cross-site scripting (XSS) attacks.
-3. I can GET /api/convert with a singler parameter containing an accepted number and unit and have it converted.
+3. I can GET /api/convert with a singular parameter containing an accepted number and unit and have it converted.
 4. Hint: Split the input by looking for the index of the first character.
 5. I can convert 'gal' to 'L' and vice versa. (1 gal to 3.78541 L)
 6. I can convert 'lbs' to 'kg' and vice versa. (1 lbs to 0.453592 kg)
