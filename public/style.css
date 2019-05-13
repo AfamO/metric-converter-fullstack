@@ -27,7 +27,7 @@ code{
 #convertField{
   padding: 1.1em;
   margin-top: 1.5em;
-  width: 17%;
+  width: 22%;
   border: 0.1em solid green;
   border-radius: 8%;
 }
@@ -36,7 +36,7 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 35%;
 }
 
 #examples{
@@ -48,10 +48,10 @@ img{
 }
 
 
-#convert{
+#convertButton{
   padding: 0.8em;
   margin-top: 3em;
-  width: 12%;
+  width: 18%;
   border: 0.1em solid green;
   border-radius: 8%;
   background: green;
@@ -62,4 +62,31 @@ img{
   text-align: center;
   background-color:gray;
   font-size:1em;
+}
+@media(max-width:520px){
+  #convertButton{
+    width: 55%;
+  }
+  #convertField{
+    width: 83%;
+  }
+
+  .examples-usages{
+  height: 20em;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#examples{
+  margin-left: 0em;
+}
+.return{
+  margin-left: 0em;
+  margin-top: 0em;
+}
+  #footer{
+    margin-top: 55%;
+    padding:0.1em;
+  }
+
 }
