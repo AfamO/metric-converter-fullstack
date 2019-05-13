@@ -1,0 +1,65 @@
+h1{
+  text-align: center;
+  font-weight: bolder;
+  font-family: sans-serif serif;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.examples-usages{
+  background: lightgray;
+  height: 10em;
+  margin-top: 2em;
+  border: 0.1em solid lightgray;
+  border-radius: 10px;
+}
+#testui{
+  text-align: center;
+}
+h3{
+
+font-size: 2em;
+}
+
+code{
+  background: white;
+  color: green;
+}
+#convertField{
+  padding: 1.1em;
+  margin-top: 1.5em;
+  width: 17%;
+  border: 0.1em solid green;
+  border-radius: 8%;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+#examples{
+  margin-left: 8em;
+}
+.return{
+  margin-left: 36em;
+  margin-top: -10em;
+}
+
+
+#convert{
+  padding: 0.8em;
+  margin-top: 3em;
+  width: 12%;
+  border: 0.1em solid green;
+  border-radius: 8%;
+  background: green;
+}
+#footer{
+  margin-top: 9%;
+  padding:0.3em;
+  text-align: center;
+  background-color:gray;
+  font-size:1em;
+}
